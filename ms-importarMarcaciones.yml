@@ -1,5 +1,13 @@
 server:
   port: 8090
+
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          servlet:
+            DispatcherServlet: DEBUG
   
 uri:
   marcacion: http://localhost:8071
